@@ -1,6 +1,12 @@
+.main-section {
+  width: 100vw;
+  /* height: 100vh; */
+}
+
 .top-section {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   height: 350px;
   background-color: #fff;
   border-radius: 5px;

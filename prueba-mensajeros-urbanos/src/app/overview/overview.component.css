@@ -1,7 +1,10 @@
 .overview-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 100vw;
+  /* justify-content: center;
+  align-content: center; */
 }
 
 .overview {
@@ -15,5 +18,21 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: center;
+  justify-content: center;
+  /* padding: center; */
+  align-self: center;
+  justify-self: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 15px;
+}
+
+.metrics {
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
 }

@@ -1,8 +1,5 @@
 .container-overview {
   padding: 25px 290px;
-  /* padding-right: 71px;
-  padding-bottom: 0px;
-  padding-left: 257px; */
 }
 
 h1 {
@@ -15,9 +12,6 @@ h1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  /* width: 100vw; */
-  /* justify-content: center;
-  align-content: center; */
 }
 
 .overview {
@@ -32,6 +26,11 @@ h1 {
   justify-content: center;
   align-self: center;
   justify-self: center;
+}
+
+.overview:hover {
+  background-color: var(--toggle-color);
+  cursor: pointer;
 }
 
 .info {

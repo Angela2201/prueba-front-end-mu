@@ -2,7 +2,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* width: 100vw; */
 }
 
 .widget {
@@ -10,21 +9,66 @@
   height: 228px;
   background-color: var(--bg-color-card);
   border-radius: 5px;
-  /* color: var(--text-color); */
   margin: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 14px;
+}
+
+.widget:hover {
+  background-color: var(--toggle-color);
+  cursor: pointer;
 }
 
 .info {
   display: flex;
   flex-direction: row;
   gap: 6px;
+  margin-top: 3px;
   color: var(--text-color);
   font-weight: bold;
+}
+
+.color-facebook {
+  background-color: hsl(208, 92%, 53%);
+  width: 264px;
+  height: 5px;
+  margin-top: -42px;
+  margin-bottom: 21px;
+  z-index: 5;
+  border-radius: 5px 5px 0 0;
+}
+
+.color-twitter {
+  background-color: hsl(203, 89%, 53%);
+  width: 264px;
+  height: 5px;
+  margin-top: -42px;
+  margin-bottom: 21px;
+  z-index: 5;
+  border-radius: 5px 5px 0 0;
+}
+
+.color-instagram {
+  background: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+  width: 264px;
+  height: 5px;
+  margin-top: -42px;
+  margin-bottom: 21px;
+  z-index: 5;
+  border-radius: 5px 5px 0 0;
+}
+
+.color-youtube {
+  background-color: hsl(348, 97%, 39%);
+  width: 264px;
+  height: 5px;
+  margin-top: -42px;
+  margin-bottom: 21px;
+  z-index: 5;
+  border-radius: 5px 5px 0 0;
 }
 
 .info-quantity {

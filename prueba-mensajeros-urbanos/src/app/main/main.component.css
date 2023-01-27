@@ -1,6 +1,5 @@
 .main-section {
   width: 100vw;
-  /* height: 100vh; */
 }
 
 .top-section {
@@ -11,5 +10,4 @@
   border-radius: 5px;
   margin-top: -85px;
   padding: 65px;
-  /* margin: 10px; */
 }

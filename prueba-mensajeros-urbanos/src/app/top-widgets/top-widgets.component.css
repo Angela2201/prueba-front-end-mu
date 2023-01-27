@@ -6,32 +6,29 @@
 }
 
 .widget {
-  width: 325px;
-  height: 175px;
-  background-color: var(--bg-color);
+  width: 264px;
+  height: 228px;
+  background-color: var(--bg-color-card);
   border-radius: 5px;
-  color: var(--text-color);
+  /* color: var(--text-color); */
   margin: 10px;
-  /* box-shadow: 5px 5px 5px #939393; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 10px;
-  /* padding: center; */
 }
 
 .info {
   display: flex;
   flex-direction: row;
   gap: 6px;
-}
-
-.quantity {
-  font-size: xxx-large;
+  color: var(--text-color);
+  font-weight: bold;
 }
 
 .info-quantity {
+  font-weight: bold;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -39,6 +36,14 @@
   gap: 3px;
 }
 
+.quantity {
+  color: var(--text-color-log);
+  font-size: xxx-large;
+}
+
+.followers {
+  color: var(--text-color);
+}
 .metrics {
   display: flex;
   flex-direction: row;

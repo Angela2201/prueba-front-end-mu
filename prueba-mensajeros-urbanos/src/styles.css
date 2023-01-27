@@ -13,11 +13,17 @@ body {
 }
 
 :root {
-  --bg-color: white;
-  --text-color: black;
+  --bg-color: hsl(0, 0%, 100%);
+  --top-bg-pattern: hsl(225, 100%, 98%);
+  --bg-color-card: hsl(227, 47%, 96%);
+  --text-color: hsl(228, 12%, 44%);
+  --text-color-log: hsl(230, 17%, 14%);
 }
 
 [data-theme="dark"] {
-  --bg-color: black;
-  --text-color: white;
+  --bg-color: hsl(230, 17%, 14%);
+  --top-bg-pattern: hsl(232, 19%, 15%);
+  --bg-color-card: hsl(228, 28%, 20%);
+  --text-color: hsl(228, 34%, 66%);
+  --text-color-log: hsl(0, 0%, 100%);
 }

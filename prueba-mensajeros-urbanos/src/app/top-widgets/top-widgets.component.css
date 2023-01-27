@@ -8,21 +8,35 @@
 .widget {
   width: 325px;
   height: 175px;
-  background-color: #fff;
+  background-color: var(--bg-color);
   border-radius: 5px;
-  color: black;
+  color: var(--text-color);
   margin: 10px;
-  box-shadow: 5px 5px 5px #939393;
+  /* box-shadow: 5px 5px 5px #939393; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 10px;
   /* padding: center; */
 }
 
 .info {
   display: flex;
   flex-direction: row;
+  gap: 6px;
+}
+
+.quantity {
+  font-size: xxx-large;
+}
+
+.info-quantity {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
 }
 
 .metrics {
@@ -30,4 +44,11 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  gap: 5px;
+  color: hsl(163, 72%, 41%);
+  font-weight: bold;
+}
+
+.m-yt {
+  color: hsl(356, 69%, 56%)
 }

@@ -4,9 +4,20 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* height: 100vh; */
 }
 
 body {
   font-family: "Inter";
   background-color: white;
+}
+
+:root {
+  --bg-color: white;
+  --text-color: black;
+}
+
+[data-theme="dark"] {
+  --bg-color: black;
+  --text-color: white;
 }

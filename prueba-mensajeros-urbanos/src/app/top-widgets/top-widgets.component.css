@@ -1,0 +1,103 @@
+.widget-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.widget {
+  width: 264px;
+  height: 228px;
+  background-color: var(--bg-color-card);
+  border-radius: 5px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+}
+
+.widget:hover {
+  background-color: var(--toggle-color);
+  cursor: pointer;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  margin-top: 3px;
+  color: var(--text-color);
+  font-weight: bold;
+}
+
+.color-facebook {
+  background-color: hsl(208, 92%, 53%);
+  width: 264px;
+  height: 5px;
+  margin-top: -42px;
+  margin-bottom: 21px;
+  z-index: 5;
+  border-radius: 5px 5px 0 0;
+}
+
+.color-twitter {
+  background-color: hsl(203, 89%, 53%);
+  width: 264px;
+  height: 5px;
+  margin-top: -42px;
+  margin-bottom: 21px;
+  z-index: 5;
+  border-radius: 5px 5px 0 0;
+}
+
+.color-instagram {
+  background: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+  width: 264px;
+  height: 5px;
+  margin-top: -42px;
+  margin-bottom: 21px;
+  z-index: 5;
+  border-radius: 5px 5px 0 0;
+}
+
+.color-youtube {
+  background-color: hsl(348, 97%, 39%);
+  width: 264px;
+  height: 5px;
+  margin-top: -42px;
+  margin-bottom: 21px;
+  z-index: 5;
+  border-radius: 5px 5px 0 0;
+}
+
+.info-quantity {
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+}
+
+.quantity {
+  color: var(--text-color-log);
+  font-size: xxx-large;
+}
+
+.followers {
+  color: var(--text-color);
+}
+.metrics {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+  color: hsl(163, 72%, 41%);
+  font-weight: bold;
+}
+
+.m-yt {
+  color: hsl(356, 69%, 56%)
+}

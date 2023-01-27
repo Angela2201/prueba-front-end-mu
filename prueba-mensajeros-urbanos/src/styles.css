@@ -1,1 +1,32 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.google.com/specimen/Inter");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter";
+  background-color: white;
+}
+
+:root {
+  --bg-color: hsl(0, 0%, 100%);
+  --top-bg-pattern: hsl(225, 100%, 98%);
+  --bg-color-card: hsl(227, 47%, 96%);
+  --text-color: hsl(228, 12%, 44%);
+  --text-color-log: hsl(230, 17%, 14%);
+  --toggle-color: hsl(230, 22%, 74%);
+  --button-color: hsl(228, 28%, 20%);
+}
+
+[data-theme="dark"] {
+  --bg-color: hsl(230, 17%, 14%);
+  --top-bg-pattern: hsl(232, 19%, 15%);
+  --bg-color-card: hsl(228, 28%, 20%);
+  --text-color: hsl(228, 34%, 66%);
+  --text-color-log: hsl(0, 0%, 100%);
+  --toggle-color: hsla(210, 85%, 33%, 0.26);
+  --button-color: hsl(227, 47%, 96%);
+}

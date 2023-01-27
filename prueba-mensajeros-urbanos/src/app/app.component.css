@@ -1,0 +1,13 @@
+@import url("https://fonts.google.com/specimen/Inter");
+
+.container {
+  width: 100vw;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  height: 100vh;
+  /* background-color: #304aa9; */
+  background-color: var(--bg-color);
+}
+
+.main-container {
+  display: flex;
+}
